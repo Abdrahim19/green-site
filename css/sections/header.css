@@ -1,0 +1,20 @@
+header {
+    --header-hight:clamp(100px ,4vw , 150px);
+    height: var(--header-hight);
+    .website-logo {
+        img {
+width: 164px;
+height: 47px;
+        }
+    }
+    .navlinks {
+        gap:clamp(30px ,4vw,72px );
+        .nav_link{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #444f3c; 
+        }
+    }
+}

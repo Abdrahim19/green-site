@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css files -->
+    <link rel="stylesheet" 
+    href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>dsing test</title>
+  </head>
+  <body>
+
+    <!-- start loding page -->
+    <div class="bike-container">
+      <svg class="bike" viewBox="0 0 48 30" width="48px" height="30px">
+        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+          <g transform="translate(9.5,19)">
+            <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+            <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+              <circle class="bike__spokes" r="5" />
+              <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+            </g>
+          </g>
+          <g transform="translate(24,19)">
+            <g class="bike__pedals-spin" stroke-dasharray="25.133 25.133" stroke-dashoffset="-21.991" transform="rotate(67.5,0,0)">
+              <circle class="bike__pedals" r="4" />
+              <circle class="bike__pedals" r="4" transform="rotate(180,0,0)" />
+            </g>
+          </g>
+          <g transform="translate(38.5,19)">
+            <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+            <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+              <circle class="bike__spokes" r="5" />
+              <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+            </g>
+          </g>
+          <polyline class="bike__seat" points="14 3,18 3" stroke-dasharray="5 5" />
+          <polyline class="bike__body" points="16 3,24 19,9.5 19,18 8,34 7,24 19" stroke-dasharray="79 79" />
+          <path class="bike__handlebars" d="m30,2h6s1,0,1,1-1,1-1,1" stroke-dasharray="10 10" />
+          <polyline class="bike__front" points="32.5 2,38.5 19" stroke-dasharray="19 19" />
+        </g>
+      </svg>
+    </div>
+    <!-- end loding page -->
+  <!-- start navbar section  -->
+  <header class="d-grid">
+    <div class="container-lg d-flex align-items-center justify-content-between">
+      <a href="index.html" class="d-flex website-logo align-items-center">
+        <img src="./public/logo.svg" alt="">
+      </a>
+      <ul class="d-md-flex d-none align-items-center navlinks">
+        <li class="nav_link"><a href="#">Products</a></li>
+        <li class="nav_link"><a href="#">VPS Hosting</a></li>
+        <li class="nav_link"><a href="#">Web Hosting</a></li>
+        <li class="nav_link"><a href="#">Dedicated Hosting</a></li>
+      </ul>
+      <button class="nav-btn d-none d-md-flex"> Contant Sales</button>
+      <button style="font-size: 2rem;" class="d-md-none">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+  </header>
+  <!-- end navbar section  -->
+  <!-- start hero section  -->
+  <div class="hero">
+    <div class="row container">
+      <div class="col-lg-6">
+        <h1 class="hero-titel">Your trusted web <br> hosting partner</h1>
+        <p class="hero-discrption">We make your business grow constantly in <br> each segment of the market</p>
+        <div class="d-flex align-items-center" style="gap: 30px;">
+          <button class="big-primery-button">Explore locations</button>
+          <button class="big-outline-button">Create Account</button>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="./public/image.png" alt="home-img" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <!-- end hero section  -->
+
+
+   <!-- js file -->
+<script type="module" src="./js/main.js"></script>
+
+  </body>
+  
+</html>
